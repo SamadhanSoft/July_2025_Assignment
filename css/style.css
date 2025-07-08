@@ -1,0 +1,1340 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #262323;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.inter-font, footer .right-sec ul li, footer .left-sec h2, #divUzoPay header h1, .font55, #divUzoPay #secCompletePayment .left-sec h2, .font50, .font40, #secTrustedBusiness h2, #divUzoPay #secReasonsPartner h2, #divUzoPay #secFutureFinance h2, #divUzoPay #secSteamlinedPayout .left-sec h2, #divUzoPay #secPaymentProcess .left-sec h2, .font24, #divUzoPay #secReasonsPartner h4, .font22, #divUzoPay #secRedefiningPayment .redeining-container .payment-box .content-box h4, .font20, .font18, #divUzoPay #secCompletePayment .left-sec p, .font17, #divUzoPay #secSteamlinedPayout .left-sec p, #divUzoPay #secPaymentProcess .left-sec p, .font16, #divUzoPay header nav ul li a, .label-text, .font14, .btn, body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.menu-toggle {
+  margin-right: 22px;
+}
+
+.border, #secTrustedBusiness .container, #divUzoPay #secReasonsPartner .container, #divUzoPay #secFutureFinance .container, #divUzoPay #secSteamlinedPayout .container, #divUzoPay #secPaymentProcess .container, .container-fluid, .center-conatiner {
+  border: 0px solid red;
+}
+
+.white-font, #secTrustedBusiness h2, #divUzoPay .tab-content ul li, #divUzoPay #secRedefiningPayment .redeining-container .payment-box .content-box, #divUzoPay #secReasonsPartner .card-section .card-row .card .card-content button, #divUzoPay #secReasonsPartner .card-section .card-row .card .card-content p, #divUzoPay #secReasonsPartner .card-section .card-row .card .card-content h5, #divUzoPay #secReasonsPartner h4, #divUzoPay #secReasonsPartner h2, #divUzoPay #secFutureFinance h2, #divUzoPay #secSteamlinedPayout .left-sec h6, #divUzoPay #secSteamlinedPayout .left-sec h2, #divUzoPay #secPaymentProcess .left-sec h2, #divUzoPay #secCompletePayment .left-sec h2, #divUzoPay header nav ul li a, #divUzoPay header h1, .label-text, .btn {
+  color: #fff;
+}
+
+.fontw400, footer .right-sec ul li, #secTrustedBusiness .slider-container .slider-text, #divUzoPay .tab-panel h3, #divUzoPay .tab-content ul li, #divUzoPay #secRedefiningPayment .redeining-container .payment-box .content-box p, #divUzoPay #secRedefiningPayment .redeining-container .payment-box .content-box h4, #divUzoPay #secReasonsPartner .card-section .card-row .card .card-content p, #divUzoPay #secReasonsPartner .card-section .card-row .card .card-content h5, #divUzoPay #secReasonsPartner h4, #divUzoPay #secCompletePayment .left-sec p, .label-text, .font17, #divUzoPay #secSteamlinedPayout .left-sec p, #divUzoPay #secPaymentProcess .left-sec p {
+  font-weight: 400;
+}
+
+.fontw500, #divUzoPay #secCompletePayment .left-sec h2, #divUzoPay header nav ul li a, .font50, .font40, #secTrustedBusiness h2, #divUzoPay #secReasonsPartner h2, #divUzoPay #secFutureFinance h2, #divUzoPay #secSteamlinedPayout .left-sec h2, #divUzoPay #secPaymentProcess .left-sec h2 {
+  font-weight: 500;
+}
+
+.font14, .btn {
+  font-size: 14px;
+}
+
+.font15, #divUzoPay #secRedefiningPayment .redeining-container .payment-box .content-box p {
+  font-size: 15px;
+}
+
+.font16, #divUzoPay header nav ul li a, .label-text {
+  font-size: 16px;
+}
+
+.font17, #divUzoPay #secSteamlinedPayout .left-sec p, #divUzoPay #secPaymentProcess .left-sec p {
+  font-size: 17px;
+  font-size: 16.17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.font18, #divUzoPay #secCompletePayment .left-sec p {
+  font-size: 18px;
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+.font22, #divUzoPay #secRedefiningPayment .redeining-container .payment-box .content-box h4 {
+  font-size: 22px;
+}
+
+.font24, #divUzoPay #secReasonsPartner h4 {
+  font-size: 24px;
+}
+
+.font40, #secTrustedBusiness h2, #divUzoPay #secReasonsPartner h2, #divUzoPay #secFutureFinance h2, #divUzoPay #secSteamlinedPayout .left-sec h2, #divUzoPay #secPaymentProcess .left-sec h2 {
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.font50 {
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.font55, #divUzoPay #secCompletePayment .left-sec h2 {
+  font-size: 55px;
+}
+
+.center-conatiner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.disp-flex, footer .bootom-footer ul, footer .bootom-footer .container, footer .right-sec ul li, footer .right-sec, footer .left-sec .social-link ul, footer .container, #secTrustedBusiness .slider-container .reviews ul, #secTrustedBusiness .slider-container .reviews, #secTrustedBusiness .slider-container .data-box, #secTrustedBusiness .slider-container .box-bottom, #secTrustedBusiness .slider-container, #divUzoPay .tab-content ul li span, #divUzoPay .tab-content ul li, #divUzoPay .tabs, #divUzoPay #secPoweringPayments .tab, #divUzoPay #secRedefiningPayment .redeining-container, #divUzoPay #secReasonsPartner .card-section .card-row .card .card-content button, #divUzoPay #secReasonsPartner .card-section .card-row, #divUzoPay #secFutureFinance .inner-section, #divUzoPay #secSteamlinedPayout .container, #divUzoPay #secPaymentProcess .right-sec, #divUzoPay header nav ul li a span, #divUzoPay header nav ul li a, #divUzoPay header nav ul, #divUzoPay header nav, #divUzoPay header .container, #divUzoPay header h1, #divUzoPay header, .label-text, .slider-buttons {
+  display: flex;
+}
+
+.space-between, #divUzoPay header .container {
+  justify-content: space-between;
+}
+
+.hor-center, #divUzoPay header h1 {
+  justify-content: center;
+}
+
+.ver-center, #secTrustedBusiness .slider-container .data-box, #divUzoPay .tab-content ul li, #divUzoPay #secReasonsPartner .card-section .card-row .card .card-content button, #divUzoPay #secFutureFinance .inner-section, #divUzoPay header nav ul li a, #divUzoPay header nav, #divUzoPay header .container, #divUzoPay header h1, #divUzoPay header, .label-text {
+  align-items: center;
+}
+
+.container-fluid {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  border-style: none;
+  height: 46px;
+  border-radius: 10px;
+}
+
+.btn-reach {
+  width: 119px;
+  background: #160c18;
+  float: left;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+.btn-reach img {
+  margin-left: 8px;
+  display: inline-block;
+  transform: rotate(-90deg);
+}
+
+.btn-started {
+  width: 166px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) -40.91%, #402788 132.95%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-started img {
+  margin-left: 8px;
+  display: inline-block;
+  transform: rotate(-90deg);
+}
+
+span.wrap-text {
+  display: block;
+  line-height: 50px;
+}
+
+.slider-buttons {
+  align-items: center;
+  width: 90px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.slider-buttons .slider-btn {
+  cursor: pointer;
+  transition: all 0.3s ease; /* Enable transition for all changes */
+}
+.slider-buttons .slider-btn:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+}
+
+.icons {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  background: url(../images/email.svg) no-repeat;
+}
+
+.fast {
+  background: url(../images/fast.svg) no-repeat;
+}
+
+.chat {
+  background: url(../images/chat.svg) no-repeat;
+}
+
+.btn {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-started:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.label-text {
+  width: fit-content;
+  margin: 11px 0px 20px;
+  background: #010b14;
+  border: 1px solid;
+  border-image-source: linear-gradient(29.49deg, #101010 2%, #1e7699 138.09%);
+  border-radius: 100px;
+  padding: 10px 15px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*Loading effect*/
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #4d27a7;
+  border-top: 6px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#divUzoPay header {
+  width: 100%;
+  height: 76px;
+  margin: 20px 0 76px;
+}
+#divUzoPay header .active, #divUzoPay header nav ul li a.active {
+  color: #33c4ff;
+}
+#divUzoPay header h1 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 20px;
+  width: 135px;
+  height: 46px;
+}
+#divUzoPay header .container {
+  max-width: 960px;
+  height: 100%;
+  border: 2px solid #33c4ff;
+  border-radius: 100px;
+  padding: 0px 20px;
+}
+#divUzoPay header nav {
+  height: 100%;
+}
+#divUzoPay header nav ul {
+  padding-right: 5px;
+}
+#divUzoPay header nav ul li {
+  margin-right: 30px;
+}
+#divUzoPay header nav ul li a {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+#divUzoPay header nav ul li a span {
+  padding: 2px 2px 0px;
+}
+#divUzoPay header nav ul li a:hover {
+  color: #33c4ff;
+  transform: scale(1.05);
+}
+#divUzoPay .section-content {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+#divUzoPay #secCompletePayment {
+  background: url("../images/hero-bg.svg") no-repeat;
+  background-color: #000;
+}
+#divUzoPay #secCompletePayment .left-sec {
+  max-width: 665px;
+  width: 100%;
+  float: left;
+  margin-left: 60px;
+}
+#divUzoPay #secCompletePayment .left-sec h2 {
+  line-height: 120%;
+}
+#divUzoPay #secCompletePayment .left-sec p {
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #b5b0b7;
+  margin: 20px 0px 40px;
+}
+#divUzoPay #secCompletePayment .right-sec {
+  max-width: 544px;
+  width: 100%;
+  float: right;
+  margin-left: 58px;
+  margin-right: 47px;
+}
+#divUzoPay #secPaymentProcess {
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-image: url(../images/sec-2-bg.svg);
+  background-position: 0px -75px;
+  height: 500px;
+  padding: 68px 82px 0px 74px;
+}
+#divUzoPay #secPaymentProcess .container {
+  max-width: 1440px;
+  overflow: hidden;
+}
+#divUzoPay #secPaymentProcess .left-sec {
+  max-width: 604px;
+  width: 100%;
+  float: left;
+  padding-top: 68px;
+}
+#divUzoPay #secPaymentProcess .left-sec h2 {
+  line-height: 42px;
+}
+#divUzoPay #secPaymentProcess .left-sec p {
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #b5b0b7;
+  margin: 20px 0px 40px;
+}
+#divUzoPay #secPaymentProcess .right-sec {
+  max-width: 564px;
+  width: 100%;
+  float: right;
+  padding-top: 80px;
+  height: 100%;
+}
+#divUzoPay #secSteamlinedPayout {
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url(../images/Steps.svg);
+  padding: 119px 77px 0px 70px;
+}
+#divUzoPay #secSteamlinedPayout .container {
+  max-width: 1440px;
+  overflow: hidden;
+  justify-content: space-between;
+}
+#divUzoPay #secSteamlinedPayout .left-sec {
+  max-width: 582px;
+  width: 100%;
+  float: left;
+}
+#divUzoPay #secSteamlinedPayout .left-sec h2 {
+  line-height: 42px;
+  margin-bottom: 50px;
+}
+#divUzoPay #secSteamlinedPayout .left-sec p {
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #b5b0b7;
+  margin: 0px;
+}
+#divUzoPay #secSteamlinedPayout .content-box {
+  padding-bottom: 30px;
+}
+#divUzoPay #secSteamlinedPayout .content-box h6 {
+  padding-bottom: 8px;
+}
+#divUzoPay #secFutureFinance {
+  padding-top: 77px;
+}
+#divUzoPay #secFutureFinance .container {
+  max-width: 1440px;
+  overflow: hidden;
+}
+#divUzoPay #secFutureFinance .inner-section {
+  width: 100%;
+  float: left;
+  height: 260px;
+  background-image: url(../images/finance-together.svg);
+  padding: 0px;
+  justify-content: space-between;
+}
+#divUzoPay #secFutureFinance h2 {
+  line-height: 42px;
+}
+#divUzoPay #secReasonsPartner {
+  text-align: center;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/exp-2.svg);
+  padding: 130px 0px;
+}
+#divUzoPay #secReasonsPartner .container {
+  max-width: 1440px;
+  overflow: hidden;
+}
+#divUzoPay #secReasonsPartner h2 {
+  line-height: 42px;
+  padding-bottom: 60px;
+  padding-top: 45px;
+}
+#divUzoPay #secReasonsPartner .title-text-img {
+  background: url(../images/title-text-img.svg) no-repeat;
+  width: 800px;
+  margin: 11px 0px 20px;
+  height: 140px;
+  background-position: center;
+  margin: 0 auto;
+}
+#divUzoPay #secReasonsPartner .card-section {
+  width: 100%;
+  overflow: hidden;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  height: 380px;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row .card {
+  padding: 20px;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row .card .card-content {
+  width: 100%;
+  float: left;
+  text-align: left;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row .card .card-content h5 {
+  padding-top: 36px;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row .card .card-content p {
+  padding: 20px 0px;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row .card .card-content button {
+  background: transparent;
+  border: 2px solid #b5b0b7;
+  outline: none;
+  height: 36px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  color: #b5b0b7;
+  padding: 10px;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row .card .card-content button img {
+  margin-left: 10px;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row:first-of-type {
+  margin-bottom: 40px;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row:first-of-type .card-img-1 {
+  margin-right: 40px;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row:nth-of-type(2) .card-img-1 {
+  margin-left: 40px;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row:nth-of-type(2) .card-content {
+  padding-bottom: 36px;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row .card-1 {
+  max-width: 340px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/card-1.svg");
+  background-position: center -27px;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row .card-2 {
+  max-width: 620px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/card-2.svg");
+  background-position: center -27px;
+}
+#divUzoPay #secReasonsPartner .card-section .card-row .card-2 .card-content {
+  padding-bottom: 36px;
+}
+#divUzoPay #secRedefiningPayment {
+  background: #000;
+}
+#divUzoPay #secRedefiningPayment .title-text-img {
+  background: url(../images/redifining-text.svg) no-repeat;
+  width: 800px;
+  margin: 11px 0px 20px;
+  height: 172px;
+  background-position: center;
+  margin: 0 auto;
+}
+#divUzoPay #secRedefiningPayment .container {
+  max-width: 1440px;
+  width: 100%;
+  padding-bottom: 23px;
+}
+#divUzoPay #secRedefiningPayment .redeining-container {
+  transition: transform 0.5s ease;
+  max-width: 1330px;
+  max-width: 1440px;
+  scroll-snap-type: x mandatory;
+  padding: 20px;
+  scroll-behavior: smooth;
+  margin: 30px auto;
+  scrollbar-width: none;
+}
+#divUzoPay #secRedefiningPayment .redeining-container .payment-box {
+  max-width: 307px;
+  width: 100%;
+  height: 438px;
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-right: 30px;
+  position: relative;
+}
+#divUzoPay #secRedefiningPayment .redeining-container .payment-box img.checkmark {
+  float: right;
+  position: absolute;
+  top: 20px;
+  right: 22px;
+}
+#divUzoPay #secRedefiningPayment .redeining-container .payment-box .payment-type {
+  margin: 0 auto;
+}
+#divUzoPay #secRedefiningPayment .redeining-container .payment-box .content-box {
+  position: absolute;
+  bottom: 28px;
+  left: 10px;
+  padding: 0px 10px;
+}
+#divUzoPay #secRedefiningPayment .redeining-container .payment-box .content-box h4 {
+  margin-top: 5px;
+}
+#divUzoPay #secRedefiningPayment .redeining-container .payment-box .content-box p {
+  margin: 20px 0px 35px;
+  line-height: 22px;
+}
+#divUzoPay #secRedefiningPayment .redeining-container .payment-box .payment-arrow {
+  float: right;
+  width: 50%;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  cursor: pointer;
+}
+#divUzoPay #secRedefiningPayment .redeining-container .payment-type-1 {
+  background: url("../images/upi.svg") no-repeat;
+}
+#divUzoPay #secRedefiningPayment .redeining-container .payment-type-2 {
+  background: url("../images/api.svg") no-repeat;
+}
+#divUzoPay #secRedefiningPayment .redeining-container .payment-type-3 {
+  background: url("../images/payout.svg") no-repeat;
+}
+#divUzoPay #secRedefiningPayment .redeining-container .payment-type-4 {
+  background: url("../images/bulk.svg") no-repeat;
+}
+#divUzoPay #secPoweringPayments {
+  background: #000;
+}
+#divUzoPay #secPoweringPayments .title-text-img {
+  background: url(../images/powering-across.svg) no-repeat;
+  width: 800px;
+  height: 172px;
+  background-position: center;
+  margin: 0 auto 20px;
+}
+#divUzoPay #secPoweringPayments .enhancing-box {
+  max-width: 1170px;
+  width: 100%;
+  height: 562px;
+  margin: 0 auto;
+  background: url("../images/enhancetab-bg.svg") no-repeat;
+  background-position: center center;
+  padding: 20px 0px 38px;
+}
+#divUzoPay #secPoweringPayments .tab-panel {
+  display: none;
+  animation: fadeIn 0.5s ease;
+}
+#divUzoPay #secPoweringPayments .tab-panel.active {
+  display: block;
+}
+#divUzoPay #secPoweringPayments .tab {
+  cursor: pointer;
+  max-width: calc((100% - 30px) / 4);
+  width: 100%;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  height: 40px;
+  transition: all 0.3s ease;
+}
+#divUzoPay #secPoweringPayments .tab:hover {
+  background: rgba(255, 255, 255, 0.0784313725);
+  background: rgba(255, 255, 255, 0.0784313725);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+#divUzoPay .tabs .active {
+  background: rgba(255, 255, 255, 0.0784313725);
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px 14px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2509803922);
+}
+#divUzoPay .tabs {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  height: 60px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.031372549);
+  padding: 4px 5px;
+}
+#divUzoPay .tab-content {
+  max-width: calc(100% - 60px);
+  width: 100%;
+  margin: 20px auto;
+  overflow: hidden;
+  background: url("../images/design-shape.svg") no-repeat;
+  background-position: top right;
+}
+#divUzoPay .tab-content ul li {
+  margin-bottom: 10px;
+}
+#divUzoPay .tab-content ul li span {
+  margin-right: 10px;
+}
+#divUzoPay .tab-content ul li:last-child {
+  margin-bottom: 0px;
+}
+#divUzoPay .tab-content .btn {
+  margin: 34px 0px;
+}
+#divUzoPay .tab-panel {
+  max-width: 506px;
+  width: 100%;
+  float: left;
+}
+#divUzoPay .tab-panel h3 {
+  line-height: 1.6;
+}
+#divUzoPay .tab-panel p {
+  color: #b4b4b4;
+  line-height: 1.6;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#secTrustedBusiness {
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/trusted.svg);
+  height: 700px;
+  padding: 50px 0px;
+}
+#secTrustedBusiness .container {
+  max-width: 1440px;
+  text-align: center;
+}
+#secTrustedBusiness .label-text {
+  margin: 11px auto 20px;
+}
+#secTrustedBusiness h2 {
+  line-height: 42px;
+}
+#secTrustedBusiness .slider-container {
+  transition: transform 0.5s ease;
+  max-width: 1330px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  padding: 20px;
+  scroll-behavior: smooth;
+  margin: 42px auto 69px;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE 10+ */
+}
+#secTrustedBusiness .slider-container .slider-container::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Edge */
+}
+#secTrustedBusiness .slider-container .slider-box {
+  flex: 0 0 auto;
+  max-width: 425px;
+  width: 100%;
+  height: 178px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  scroll-snap-align: start;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  margin-right: px;
+  border: 1px solid #28213a;
+  background: linear-gradient(259.43deg, #28213a 11.25%, #181f23 96.82%);
+}
+#secTrustedBusiness .slider-container .box-bottom {
+  width: 100%;
+  float: left;
+  height: 50px;
+  margin-top: 30px;
+}
+#secTrustedBusiness .slider-container .data-box {
+  width: 100%;
+  float: left;
+  border-radius: 50%;
+  color: #fff;
+}
+#secTrustedBusiness .slider-container .slider-text {
+  color: #fff;
+  text-align: left;
+  line-height: 1.6;
+}
+#secTrustedBusiness .slider-container .imgbox {
+  width: 50px;
+  height: 50px;
+}
+#secTrustedBusiness .slider-container .details {
+  margin-left: 12px;
+  text-align: left;
+}
+#secTrustedBusiness .slider-container .details .name {
+  padding: 6px 0px;
+}
+#secTrustedBusiness .slider-container .reviews {
+  width: 100%;
+  color: #fff;
+  align-items: center;
+  justify-content: end;
+}
+#secTrustedBusiness .slider-container .reviews ul {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid #0d0928;
+  background: #1c152e;
+  height: 26px;
+  width: 106px;
+  border-radius: 10px;
+}
+#secTrustedBusiness .slider-container .reviews ul li {
+  background: url(../images/star.svg) no-repeat;
+  width: 13px;
+  height: 13px;
+  margin: 3px;
+  background-size: contain;
+}
+
+footer {
+  width: 100%;
+  background: #000;
+  color: white;
+}
+footer .container {
+  max-width: 1440px;
+  padding: 96px;
+  justify-content: space-between;
+}
+footer .left-sec {
+  max-width: 500px;
+  width: 100%;
+  margin-right: 50px;
+}
+footer .left-sec h2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0%;
+  margin-bottom: 43px;
+}
+footer .left-sec p {
+  line-height: 1.6;
+}
+footer .left-sec .social-link {
+  margin-top: 40px;
+}
+footer .left-sec .social-link ul li {
+  margin-right: 10px;
+}
+footer .right-sec {
+  max-width: 720px;
+  width: 100%;
+  float: right;
+  justify-content: space-evenly;
+}
+footer .right-sec ul li {
+  height: 40px;
+  align-items: center;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6980392157);
+}
+footer .right-sec ul li:first-child {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+footer .bootom-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1019607843);
+}
+footer .bootom-footer .container {
+  justify-content: space-between;
+  padding: 32px 96px;
+}
+footer .bootom-footer ul li {
+  margin-left: 10px;
+}
+
+@media (max-width: 480px) {
+  #divUzoPay #secFutureFinance .inner-section {
+    display: block;
+    padding: 20px 10px;
+  }
+  #divUzoPay #secFutureFinance .inner-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #divUzoPay #secFutureFinance .inner-section .btn {
+    margin: 0 auto;
+  }
+  #divUzoPay #secTrustedBusiness {
+    padding: 10px;
+    height: auto;
+  }
+  #divUzoPay #secTrustedBusiness .container h2 {
+    font-size: 40px;
+  }
+  #divUzoPay #secTrustedBusiness .slider-container {
+    max-width: 100%;
+    margin: 30px auto;
+  }
+  #divUzoPay #secTrustedBusiness .slider-container .slider-box {
+    padding: 10px;
+    height: auto;
+  }
+  footer .container {
+    padding: 10px;
+    display: block;
+  }
+  footer .left-sec {
+    margin-right: 0px;
+    max-width: 100%;
+  }
+  footer .right-sec {
+    max-width: 100%;
+    display: block;
+  }
+  footer .bootom-footer .container {
+    padding: 10px;
+  }
+}
+/* Mobile (portrait and landscape) */
+@media (max-width: 767px) {
+  /* Styles for all mobile devices */
+  #divUzoPay .img-resposinve {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  #divUzoPay #secCompletePayment header {
+    margin-top: 0px;
+  }
+  #divUzoPay #secCompletePayment header .container {
+    justify-content: space-between;
+    border-radius: 0px;
+    border-width: 2px;
+  }
+  #divUzoPay #secCompletePayment header .container nav {
+    opacity: 0;
+  }
+  #divUzoPay #secCompletePayment .left-sec {
+    padding: 10px 10px 0px 10px;
+    margin-left: 0px;
+  }
+  #divUzoPay #secCompletePayment .right-sec {
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 100%;
+    text-align: center;
+  }
+  #divUzoPay #secPaymentProcess {
+    padding: 10px;
+    background-position: 0px 0px;
+    height: auto;
+  }
+  #divUzoPay #secPaymentProcess .left-sec {
+    padding: 10px;
+  }
+  #divUzoPay #secPaymentProcess .right-sec {
+    padding: 10px;
+    max-width: 100%;
+    text-align: center;
+  }
+  #divUzoPay #secSteamlinedPayout {
+    padding: 20px 10px;
+  }
+  #divUzoPay #secSteamlinedPayout .container {
+    display: block;
+  }
+  #divUzoPay #secSteamlinedPayout .container .left-sec {
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
+  #divUzoPay #secSteamlinedPayout #secFutureFinance .inner-section {
+    padding: 0px 20px;
+  }
+  #divUzoPay #secSteamlinedPayout #secFutureFinance .inner-section h2 {
+    font-size: 30px;
+  }
+  #divUzoPay #secReasonsPartner {
+    padding: 10px;
+  }
+  #divUzoPay #secReasonsPartner .container {
+    max-width: 100%;
+  }
+  #divUzoPay #secReasonsPartner .title-text-img {
+    max-width: 100%;
+  }
+  #divUzoPay #secReasonsPartner .title-text-img h2 {
+    font-size: 30px;
+    line-height: auto;
+    padding-bottom: 0px;
+    padding-top: 35px;
+  }
+  #divUzoPay #secReasonsPartner .card-section {
+    padding-top: 20px;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row {
+    display: block;
+    height: auto;
+    margin-bottom: 0px !important;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row:first-of-type .card-img-1 {
+    margin: 0px auto;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row:nth-of-type(2) .card-img-1 {
+    margin: 0px auto;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row .card-img-2 {
+    margin: 0 auto;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row .card {
+    max-width: 340px;
+    height: 384px;
+    max-width: 340px;
+    margin: 20px auto;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row .card .card-content {
+    padding: 0px 20px;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row .card .card-content button {
+    margin: 20px 0px;
+  }
+  #divUzoPay #secRedefiningPayment .title-text-img {
+    min-height: 100px;
+    max-width: 800px;
+    width: 100%;
+    background-size: contain;
+  }
+  #divUzoPay #secRedefiningPayment .redeining-container {
+    margin-top: 0px;
+  }
+  #divUzoPay #secPoweringPayments {
+    margin-bottom: 20px;
+  }
+  #divUzoPay #secPoweringPayments .title-text-img {
+    height: auto;
+    min-height: 100px;
+    max-width: 800px;
+    width: 100%;
+    background-size: contain;
+  }
+  #divUzoPay #secPoweringPayments .enhancing-box {
+    padding: 10px;
+    max-width: 100%;
+    width: calc(100% - 40px);
+    max-width: 0 20px;
+  }
+  #divUzoPay #secPoweringPayments .tabs {
+    height: auto;
+    display: block;
+    font-size: 16px;
+  }
+  #divUzoPay #secPoweringPayments .tabs .tab {
+    padding: 0px;
+    height: 35px;
+    max-width: 100%;
+  }
+  #divUzoPay #secPoweringPayments .tab-panel {
+    display: none;
+    animation: fadeIn 0.5s ease;
+  }
+  #divUzoPay #secPoweringPayments .tab-panel.active {
+    display: block;
+  }
+  #divUzoPay #secPoweringPayments .tab-content {
+    max-width: 100%;
+    padding: 10px;
+    overflow-y: auto;
+    height: 350px;
+  }
+  #divUzoPay #secTrustedBusiness {
+    padding: 10px;
+  }
+  #divUzoPay #secTrustedBusiness .container h2 {
+    font-size: 40px;
+  }
+  #divUzoPay #secTrustedBusiness .slider-container {
+    max-width: 100%;
+  }
+  footer .container {
+    padding: 20px 10px;
+    display: block;
+  }
+  footer .left-sec {
+    margin-right: 0px;
+    max-width: 100%;
+  }
+  footer .left-sec h2 {
+    margin-bottom: 20px;
+  }
+  footer .right-sec {
+    max-width: 100%;
+    justify-content: flex-start;
+  }
+  footer .right-sec ul {
+    margin-right: 30px;
+  }
+  footer .right-sec ul:last-child {
+    margin-right: 0px;
+  }
+  footer .bootom-footer .container {
+    padding: 10px;
+  }
+}
+@media (max-wdith: 940px) {
+  #divUzoPay #secCompletePayment header {
+    margin-top: 0px;
+    position: fixed;
+    /* background: #fff; */
+    z-index: 99999;
+    background: #000;
+  }
+}
+/* iPad Mini Portrait */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #divUzoPay .img-resposinve {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  #divUzoPay #secCompletePayment .left-sec {
+    padding: 10px 10px 0px 10px;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  #divUzoPay #secCompletePayment .right-sec {
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 100%;
+    text-align: center;
+  }
+  #divUzoPay #secPaymentProcess {
+    padding: 10px;
+    background-position: 0px 0px;
+    height: auto;
+  }
+  #divUzoPay #secPaymentProcess .left-sec {
+    padding: 10px;
+    max-width: 100%;
+  }
+  #divUzoPay #secPaymentProcess .right-sec {
+    padding: 10px;
+    max-width: 100%;
+    display: block;
+  }
+  #divUzoPay #secSteamlinedPayout {
+    padding: 20px 10px;
+  }
+  #divUzoPay #secSteamlinedPayout .container {
+    display: block;
+  }
+  #divUzoPay #secSteamlinedPayout .container .left-sec {
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
+  #divUzoPay #secSteamlinedPayout #secFutureFinance .inner-section {
+    padding: 0px 20px;
+  }
+  #divUzoPay #secSteamlinedPayout #secFutureFinance .inner-section h2 {
+    font-size: 30px;
+  }
+  #divUzoPay #secReasonsPartner {
+    padding: 10px;
+  }
+  #divUzoPay #secReasonsPartner .container {
+    max-width: 100%;
+  }
+  #divUzoPay #secReasonsPartner .title-text-img {
+    max-width: 100%;
+  }
+  #divUzoPay #secReasonsPartner .title-text-img h2 {
+    font-size: 30px;
+    line-height: auto;
+    padding-bottom: 0px;
+    padding-top: 35px;
+  }
+  #divUzoPay #secReasonsPartner .card-section {
+    padding-top: 20px;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row {
+    display: block;
+    height: auto;
+    margin-bottom: 0px !important;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row:first-of-type .card-img-1 {
+    margin: 0px auto;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row:nth-of-type(2) .card-img-1 {
+    margin: 0px auto;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row .card-img-2 {
+    margin: 0 auto;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row .card {
+    max-width: 340px;
+    height: 384px;
+    max-width: 340px;
+    margin: 20px auto;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row .card .card-content {
+    padding: 0px 20px;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row .card .card-content button {
+    margin: 20px 0px;
+  }
+  #divUzoPay #secPoweringPayments .title-text-img {
+    height: auto;
+    min-height: 100px;
+    max-width: 800px;
+    width: 100%;
+    background-size: contain;
+  }
+  #divUzoPay #secPoweringPayments .enhancing-box {
+    padding: 10px;
+    max-width: 100%;
+    max-width: calc(100% - 40px);
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #divUzoPay #secPoweringPayments .tabs {
+    height: auto;
+    display: block;
+    font-size: 16px;
+  }
+  #divUzoPay #secPoweringPayments .tabs .tab {
+    padding: 0px;
+    max-width: 100%;
+    margin: 0px;
+  }
+  #divUzoPay #secPoweringPayments .tab-content {
+    max-width: 100%;
+    padding: 10px;
+    overflow-y: auto;
+    height: 350px;
+    margin: 0px;
+  }
+  footer .container {
+    padding: 10px;
+    display: block;
+  }
+  footer .left-sec {
+    margin-right: 0px;
+    max-width: 100%;
+  }
+  footer .right-sec {
+    max-width: 100%;
+    justify-content: flex-start;
+  }
+  footer .right-sec ul {
+    margin-right: 30px;
+  }
+  footer .right-sec ul:last-child {
+    margin-right: 0px;
+  }
+  footer .bootom-footer .container {
+    padding: 10px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+  /* iPad Mini Landscape */
+  #divUzoPay .img-resposinve {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  #divUzoPay .container {
+    padding: 20px;
+  }
+  #divUzoPay #secCompletePayment .left-sec {
+    padding: 10px 10px 0px 10px;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  #divUzoPay #secCompletePayment .right-sec {
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 100%;
+    text-align: center;
+  }
+  #divUzoPay #secPaymentProcess {
+    padding: 0px;
+  }
+  #divUzoPay #secPaymentProcess .left-sec {
+    max-width: 40%;
+  }
+  #divUzoPay #secPaymentProcess .right-sec {
+    max-width: 55%;
+    display: flex;
+    padding: 20px 0px;
+  }
+  #divUzoPay #secSteamlinedPayout {
+    padding: 20px 10px;
+  }
+  #divUzoPay #secSteamlinedPayout .container {
+    display: block;
+  }
+  #divUzoPay #secSteamlinedPayout .container .left-sec {
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
+  #divUzoPay #secReasonsPartner {
+    padding: 10px;
+  }
+  #divUzoPay #secReasonsPartner .container {
+    max-width: 100%;
+  }
+  #divUzoPay #secReasonsPartner .title-text-img {
+    max-width: 100%;
+  }
+  #divUzoPay #secReasonsPartner .title-text-img h2 {
+    font-size: 30px;
+    line-height: auto;
+    padding-bottom: 0px;
+    padding-top: 35px;
+  }
+  #divUzoPay #secReasonsPartner .card-section {
+    padding-top: 20px;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row {
+    display: block;
+    height: auto;
+    margin-bottom: 0px !important;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row:first-of-type .card-img-1 {
+    margin: 0px auto;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row:nth-of-type(2) .card-img-1 {
+    margin: 0px auto;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row .card-img-2 {
+    margin: 0 auto;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row .card {
+    max-width: 340px;
+    height: 384px;
+    max-width: 340px;
+    margin: 20px auto;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row .card .card-content {
+    padding: 0px 20px;
+  }
+  #divUzoPay #secReasonsPartner .card-section .card-row .card .card-content button {
+    margin: 20px 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
